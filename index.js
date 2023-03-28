@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static("frontend"));
 
-//configurar pongo el puerto
+//configurar pongo el puerto escogido
 app.set('port',port)
 
 //rutas basicas
